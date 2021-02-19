@@ -32,6 +32,12 @@ explore: items {
     sql_on: ${orders.customer_id} = ${customers.id} ;;
     relationship: many_to_one
   }
+
+  join: categories {
+    type:  left_outer
+    sql_on:  ${products.category_id} =${categories.id} ;;
+    relationship: many_to_one
+  }
 }
 
 explore: orders {
