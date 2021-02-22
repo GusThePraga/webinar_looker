@@ -22,7 +22,8 @@ view: customers {
   dimension: country {
     type: string
     map_layer_name: countries
-    sql: case when ${TABLE}.country = 'Brasil' then 'BRA' else ${TABLE}.country end;;
+    sql:  ${TABLE}.country ;;
+    #sql: case when ${TABLE}.country = 'Brasil' then 'BRA' else ${TABLE}.country end;;
   }
 
   dimension_group: created {
