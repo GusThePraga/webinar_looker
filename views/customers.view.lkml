@@ -22,7 +22,7 @@ view: customers {
   dimension: country {
     type: string
     map_layer_name: countries
-    sql: ${TABLE}.country ;;
+    sql: ${TABLE}.country = 'BRA';;
   }
 
   dimension_group: created {
