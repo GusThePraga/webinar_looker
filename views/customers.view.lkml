@@ -22,9 +22,7 @@ view: customers {
   dimension: country {
     type: string
     map_layer_name: countries
-    sql: UPDATE ${TABLE}
-          SET ${TABLE}.country = 'BRA'
-          WHERE ${TABLE}.country = 'Brasil';;
+    sql: case when ${TABLE}.country = 'Brasil' then 'BRA' else ${TABLE}.country end;;
   }
 
   dimension_group: created {
