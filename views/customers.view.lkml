@@ -73,4 +73,10 @@ view: customers {
     type: count
     drill_fields: [id, last_name, first_name, orders.count]
   }
+
+  dimension: state1 {
+    type:  string
+    map_layer_name: countries
+    sql: ${TABLE}.state ;;
+  }
 }
