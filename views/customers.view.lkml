@@ -47,11 +47,11 @@ view: customers {
 
   dimension: first_name {
     type: string
-    sql: ${TABLE}.first_name
+    sql: ${TABLE}.first_name;;
     link: {
     label: "Mais sobre a pessoa..."
     url: "https://ipnet.sa.looker.com/dashboards-next/47"
-    };;
+    }
   }
 
   dimension: last_name {
