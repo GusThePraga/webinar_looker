@@ -62,6 +62,10 @@ view: customers {
   dimension: full_name {
     type: string
     sql: CONCAT(${first_name}, ' ', ${last_name}) ;;
+    link: {
+      label: "Mais sobre a pessoa..."
+      url: "https://ipnet.sa.looker.com/dashboards-next/47"
+    }
   }
 
   dimension: number {
