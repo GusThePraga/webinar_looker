@@ -8,6 +8,10 @@ datagroup: webinar_looker_default_datagroup {
   max_cache_age: "1 hour"
 }
 
+map_layer: brazilian_state {
+  file: "/state.json"
+  property_key: "name"
+}
 persist_with: webinar_looker_default_datagroup
 
 explore: categories {}

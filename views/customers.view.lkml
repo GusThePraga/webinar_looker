@@ -86,7 +86,7 @@ view: customers {
 
   dimension: state1 {
     type:  string
-    map_layer_name: countries
+    map_layer_name: brazilian_state
     sql: ${TABLE}.state ;;
   }
 }
