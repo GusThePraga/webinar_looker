@@ -59,6 +59,11 @@ view: customers {
     sql: ${TABLE}.last_name ;;
   }
 
+  dimension: full_name {
+    type: string
+    sql: CONCAT(${first_name}, ' ', ${last_name}) ;;
+  }
+
   dimension: number {
     type: number
     sql: ${TABLE}.number ;;
