@@ -50,7 +50,7 @@ view: customers {
     sql: ${TABLE}.first_name;;
     link: {
     label: "Mais sobre a pessoa..."
-    url: "https://ipnet.sa.looker.com/dashboards-next/47"
+    url: "https://ipnet.sa.looker.com/dashboards/48"
     }
   }
 
