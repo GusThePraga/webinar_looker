@@ -64,7 +64,7 @@ view: customers {
     sql: CONCAT(${first_name}, ' ', ${last_name}) ;;
     link: {
       label: "Mais sobre a pessoa..."
-      url: "https://ipnet.sa.looker.com/dashboards/48"
+      url: "https://ipnet.sa.looker.com/embed/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
     }
   }
 
