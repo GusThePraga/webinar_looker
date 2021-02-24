@@ -50,13 +50,17 @@ view: customers {
     sql: ${TABLE}.first_name;;
     link: {
     label: "Mais sobre a pessoa..."
-    url: "https://ipnet.sa.looker.com/dashboards/48"
+    url: "https://ipnet.sa.looker.com/embed/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
     }
   }
 
   dimension: last_name {
     type: string
     sql: ${TABLE}.last_name ;;
+    link: {
+      label: "Mais sobre a pessoa..."
+      url: "https://ipnet.sa.looker.com/embed/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
+    }
   }
 
   dimension: full_name {
