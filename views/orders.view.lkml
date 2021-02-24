@@ -7,6 +7,10 @@ view: orders {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
+    link: {
+      label: "Mais sobre o pedido..."
+      url: "https://ipnet.sa.looker.com/embed/dashboards/49?Codigo=%25{{ value }}%25,{{ value }}"
+    }
   }
 
   dimension_group: created {
