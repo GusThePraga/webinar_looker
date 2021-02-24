@@ -27,6 +27,7 @@ view: orders {
     type: number
     # hidden: yes
     sql: ${TABLE}.customer_id ;;
+
   }
 
   dimension: status {
