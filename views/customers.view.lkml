@@ -7,6 +7,10 @@ view: customers {
     primary_key: yes
     type: number
     sql: ${TABLE}.id ;;
+    link: {
+      label: "Mais sobre a pessoa..."
+      url: "https://ipnet.sa.looker.com/embed/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
+    }
   }
 
   dimension: additionals {
