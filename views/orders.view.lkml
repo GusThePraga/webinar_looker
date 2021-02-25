@@ -9,7 +9,7 @@ view: orders {
     sql: ${TABLE}.id ;;
     link: {
       label: "Mais sobre o pedido..."
-      url: "https://ipnet.sa.looker.com/embed/dashboards/49?Codigo={{ value }}"
+      url: "https://ipnet.sa.looker.com/dashboards/49?Codigo={{ value }}"
     }
   }
 

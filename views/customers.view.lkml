@@ -9,7 +9,7 @@ view: customers {
     sql: ${TABLE}.id ;;
     link: {
       label: "Mais sobre a pessoa..."
-      url: "https://ipnet.sa.looker.com/embed/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
+      url: "https://ipnet.sa.looker.com/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
     }
   }
 
@@ -54,7 +54,7 @@ view: customers {
     sql: ${TABLE}.first_name;;
     link: {
     label: "Mais sobre a pessoa..."
-    url: "https://ipnet.sa.looker.com/embed/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
+    url: "https://ipnet.sa.looker.com/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
     }
   }
 
@@ -63,7 +63,7 @@ view: customers {
     sql: ${TABLE}.last_name ;;
     link: {
       label: "Mais sobre a pessoa..."
-      url: "https://ipnet.sa.looker.com/embed/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
+      url: "https://ipnet.sa.looker.com/dashboards/48?Pessoa=%25{{ value }}%25,{{ value }}"
     }
   }
 
